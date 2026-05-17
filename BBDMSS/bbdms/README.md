@@ -1,8 +1,17 @@
 
+
+<p align="center">
+	<img src="images/banner1.jpg" alt="BBDMSS Banner" width="80%">
+</p>
+
 # Blood Bank & Donor Management System (BBDMSS)
 
 ## Overview
 BBDMSS is a comprehensive web-based platform designed to streamline blood bank operations, donor management, and blood request workflows. It provides both user and admin interfaces for efficient management and transparency.
+
+<p align="center">
+	<img src="images/blood-donor.jpg" alt="Blood Donor Screenshot" width="60%">
+</p>
 
 ## Features
 - Donor registration, authentication, and profile management
@@ -11,6 +20,10 @@ BBDMSS is a comprehensive web-based platform designed to streamline blood bank o
 - Admin dashboard for managing donors, requests, and blood groups
 - Contact and support system
 - Secure password management and authentication
+
+<p align="center">
+	<img src="images/b2.png" alt="Dashboard Screenshot" width="60%">
+</p>
 
 ## Technologies Used
 - PHP (Core backend logic)
