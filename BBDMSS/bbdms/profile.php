@@ -1,3 +1,4 @@
+
 <?php 
 session_start();
 error_reporting(0);
@@ -82,7 +83,7 @@ if (strlen($_SESSION['bbdmsdid']==0)) {
 		<div aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item">
-					<a href="profile.php">Home</a>
+					<a href="index.php">Home</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">Donor Profile</li>
 			</ol>
@@ -100,8 +101,11 @@ if (strlen($_SESSION['bbdmsdid']==0)) {
 				</span>
 			</div>
 			<div class="d-flex">
-                <div class="contact-right-w3l appoint-form">
-                    <h5 class="title-w3 text-center mb-5">Detail of Your profile</h5>
+				<div class="appoint-img">
+
+				</div>
+				<div class="contact-right-w3l appoint-form">
+					<h5 class="title-w3 text-center mb-5">Detail of Your profile</h5>
 					<form action="#" method="post">
 						<?php
 $uid=$_SESSION['bbdmsdid'];

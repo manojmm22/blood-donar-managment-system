@@ -17,7 +17,7 @@ foreach ($results as $result) {
 $_SESSION['bbdmsdid']=$result->id;
 }
 $_SESSION['login']=$_POST['email'];
-echo "<script type='text/javascript'> document.location ='profile.php'; </script>";
+echo "<script type='text/javascript'> document.location ='index.php'; </script>";
 } else{
 echo "<script>alert('Invalid Details');</script>";
 }
